@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:#F5FFFA;
+}
+.title{
+    width:100%;
+    height:90px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+ 
+
+}
+.titleimg{
+    height:80px;
+
+}
+.titlespan{
+    font-size:65px;
+    color:blueviolet;
+
+}
+.nav{
+    width:100%;
+    height:50px;
+    /* background-color:#926bf5; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    border-top:2px solid black;
+    border-bottom:2px solid
+
+}
+.nav p a{
+    text-decoration:none;
+    color:rgb(38, 32, 32);
+    font-size:25px;
+    transition: font-size 2s ease-in-out;
+}
+.nav p a:hover{
+    color:rgb(226, 76, 43);
+    font-size:28px;
+}
+.content{
+    width:100%;
+    padding:20px;
+    margin-top:20px;
+    border:2px solid rgb(231, 227, 227);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+}
+.content p{
+    font-size:20px;
+    line-height: 1.6;
+
+}
+.concepts{
+    margin-top: 12px;
+}
+.concepts li{
+    font-size: 20px;
+}
+.nestedconcepts{
+    font-size: 18px;
+    margin-left: 20px;
+}
